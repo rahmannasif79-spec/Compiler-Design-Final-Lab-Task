@@ -1,0 +1,62 @@
+<html>
+
+  <head>
+    <title>Registration</title>
+  </head>
+
+  <body>
+    <h2 align="center">Registration </h2>
+
+    <form>
+      <table align="center">
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="fname"></td>
+        </tr>
+
+        <tr>
+          <td>Last Name:</td>
+          <td><input type="text" name="lname"></td>
+        </tr>
+
+        <tr>
+          <td>Email:</td>
+          <td><input type="email" name="email"></td>
+        </tr>
+
+        <tr>
+          <td>Password:</td>
+          <td><input type="password" name="password"></td>
+        </tr>
+
+        <tr>
+          <td>Confirm Password:</td>
+          <td><input type="password" name="cnfpassword"></td>
+        </tr>
+
+        <tr>
+          <td>Date of Birth:</td>
+          <td><input type="date" name="dob"></td>
+        </tr>
+
+        <tr>
+          <td>Gender:</td>
+          <td>
+              <input type="radio" name="gender" value="male"> Male
+              <input type="radio" name="gender" value="female"> Female
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+              <input type="submit" value="Sign-up">
+              <input type="reset" value="Reset">
+          </td>
+        </tr>
+        
+      </table>
+    </form>
+
+  </body>
+
+</html>
